@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP FASHION</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc99;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff9966;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+        }
+        .product img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            color: #ff9966;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #ff9966;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        footer {
+            background-color: #ffcc99;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur MP FASHION</h1>
+    </header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Produits</a>
+        <a href="#">À propos</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300" alt="Produit 1">
+                <h3>Abaya Élégante</h3>
+                <p>Prix : 49,99€</p>
+                <button>Ajouter au Panier</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300" alt="Produit 2">
+                <h3>Robe Modeste</h3>
+                <p>Prix : 39,99€</p>
+                <button>Ajouter au Panier</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300" alt="Produit 3">
+                <h3>Hijab Chic</h3>
+                <p>Prix : 19,99€</p>
+                <button>Ajouter au Panier</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 MP FASHION. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
